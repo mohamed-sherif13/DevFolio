@@ -1,0 +1,76 @@
+@keyframes typing{
+    0%
+    {
+      content:"|"
+    }
+    7%
+    {
+      content:"D|"
+    }
+
+    14%
+    {
+      content:"De|"
+    }
+    
+    21%
+    {
+      content:"Des|"
+    }
+
+    28%
+    {
+      content:"Desi|"
+    }
+    35%
+    {
+      content:"Desig|"
+    }
+    42%
+    {
+      content:"Design|"
+    }
+    48%
+    {
+      content:"Designe|"
+    }
+
+    55%
+    {
+      content:"Designer|"
+    }
+    62%
+    {
+      content:"Designe|"
+    }
+    68%
+    {
+      content:"Design|"
+    }
+    75%
+    {
+      content:"Desig|"
+    }
+    82%
+    {
+      content:"Desi|"
+    }
+    89%
+    {
+      content:"Des|"
+    }
+    93%
+    {
+      content:"De|"
+    }
+    96%
+    {
+      content:"D|"
+    }
+    100%
+    {
+      content:"|"
+    }
+    
+    
+    }

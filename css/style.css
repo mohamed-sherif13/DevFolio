@@ -1,0 +1,291 @@
+
+/*.nav-item:hover    .dropdown-menu{
+display: block;
+}*/
+.dropdown-menu li 
+{
+  position: relative;
+}
+.dropdown-menu  .test{
+  display: none;
+  position: absolute;
+  top:-7px;
+  left: 160px;
+}
+ .deep:hover > .test {
+  display: block;
+}
+.designer::after{
+  content: "";
+  animation: typing 2s infinite;
+}
+
+
+
+
+
+header.photo{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header div.overlay{
+
+    background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+
+  .skill-mf .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+  }
+  .about-me{
+    position: relative;
+  }
+  .about-me::before{
+    content: "";
+    position: absolute;
+    top:30px;
+    bottom: 0;
+    background-color: #0078ff;
+    width: 70px;
+    height: 3px;;
+
+
+  }
+
+  .line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+  }
+
+
+
+
+  .service-box{
+   
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+/*
+  .service-box .icon{
+    position: relative;
+    z-index: 22;
+   
+  }
+.icon::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-2px;
+    left:-30px;
+    border: #0078ff;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: #ffffff00;
+
+  }
+ 
+
+  .service-box .icon:hover.icon::after
+  {
+    border: #fff;
+    background-color: #0078ff;
+  }
+*/
+
+
+  .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+  }
+
+  .service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+
+
+
+  .numbers{
+    background: linear-gradient( rgba(4, 0, 255, 0.5),rgba(4, 0, 255, 0.5)),url(../images/counters-bg.jpg);
+  }
+
+  .number_icon .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #dfe3e8;
+  }
+
+  .card .ico-circle {
+  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+  
+    margin: 0 auto;
+    text-align: center;
+   
+   
+   
+  }
+
+  .card {
+    overflow: hidden;
+  }
+ 
+
+  .card .scalee{
+    transition:transform 2s;
+  }
+   .card .scalee:hover{
+
+    transform: scale(1.1,1.1);
+  }
+
+  .shado-card{
+    
+   
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+     
+      border-radius: 1rem;
+      margin-bottom: 3rem;
+      text-align: center;
+    
+
+  }
+
+  .blog .card .btnn .btn{
+    position: absolute;
+    top:55%;
+    left: 40%;
+    height: 35px !important;
+    width: 80px !important;
+   
+  }
+  .blog .card .btnn {
+    margin-bottom: 10px !important;
+  }
+
+
+  .card-footer .img-morgan{
+    width: 40px;
+    height: 40px;
+  }
+  .card-footer .img-morgan img{
+    width: 100%;
+  }
+
+
+  .line-st {
+    width: 15%;
+    height: 3px;
+    background-color: #0078ff;
+    margin: 0 ;
+  }
+
+
+  .social-icon ul li div{
+  width: 40px;
+  height: 40px;
+  border: 3px solid  #0078ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: black;
+
+  }
+
+  .social-icon ul li a{
+    text-decoration: none;
+  }
+  .social-icon ul li div:hover{
+    color: #fff;
+    background-color: #0078ff;
+    border-color: transparent;
+    border-radius: 50%;
+    
+  }
+
+ .contact{
+    
+    background: linear-gradient( rgba(15, 96, 235, 0.505),rgba(15, 96, 235, 0.505)),url(../images/overlay-bg.jpg);
+
+  }
+
+
+  .testmoniall{
+    background: linear-gradient( rgba(15, 96, 235, 0.505),rgba(15, 96, 235, 0.505)),url(../images/overlay-bg.jpg);
+  }
+  .testmonial {
+    margin-top: 100px;
+    
+
+  }
+
+  .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+  .foot{
+    background-color: #0078ff;
+  }
